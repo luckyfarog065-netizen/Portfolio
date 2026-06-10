@@ -86,19 +86,80 @@ nav a:hover{
 }
 .resume-btn{
     display:inline-block;
-    margin-top:20px;
+    margin:10px 8px;
     padding:12px 25px;
     background:white;
     color:#2563eb;
     text-decoration:none;
     font-weight:bold;
     border-radius:8px;
+    border:2px solid white;
     transition:0.3s;
 }
 
 .resume-btn:hover{
     background:#f0f0f0;
     transform:translateY(-2px);
+}
+@media (max-width: 768px){
+    .resume-btn{
+        display:block;
+        width:80%;
+        margin:10px auto;
+    }
+}
+.project-btn{
+    display:inline-block;
+    margin:10px 10px 10px 0;
+    padding:10px 20px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.project-btn:hover{
+    background:#1d4ed8;
+}
+footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+@media (max-width: 768px){
+
+    h1{
+        font-size:32px;
+    }
+
+    .lead{
+        font-size:16px;
+    }
+
+    section{
+        width:90%;
+        padding:15px;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+
+    .profile-pic{
+        width:120px;
+        height:120px;
+    }
+
+    .project-btn{
+        display:block;
+        text-align:center;
+        margin:10px 0;
+    }
 }
 	</style>
 </head>
@@ -176,16 +237,46 @@ My goal is to become a professional software developer and build useful applicat
 <section id="projects">
     <h2>Projects</h2>
 
+    <h3>Personal Portfolio Website</h3>
+
+<p>
+Designed and developed a responsive personal portfolio website using HTML and CSS.
+
+<br><br>
+
+• Showcases my education, technical skills, projects, certifications, and contact information.
+
+<br>
+
+• Hosted online using GitHub Pages.
+
+<br>
+
+• Includes downloadable resume, GitHub profile, and LinkedIn profile links.
+
+<br>
+
+• Demonstrates front-end development and responsive web design skills.
+</p>
+<p>
+<a href="https://luckyfarog065-netizen.github.io/Portfolio/"
+   target="_blank"
+   class="project-btn">
+   🌐 View Portfolio
+</a>
+
+<a href="https://github.com/luckyfarog065-netizen/Portfolio"
+   target="_blank"
+   class="project-btn">
+   💻 GitHub Repository
+</a>
+</p>
     <h3>Calculator Application</h3>
 
     <p>
 Developed a Calculator Application using programming concepts to perform arithmetic operations such as addition, subtraction, multiplication, and division. This project helped strengthen my understanding of logic building and problem-solving.
 </p>
-<h3>Personal Portfolio Website</h3>
 
-<p>
-Designed and developed a personal portfolio website using HTML and CSS to showcase my education, skills, projects, certifications, and contact information. This project improved my web development and front-end design skills.
-</p>
 </section>
 <section>
     <h2>Certifications</h2>
@@ -197,10 +288,35 @@ Designed and developed a personal portfolio website using HTML and CSS to showca
 </section>
 <section id="contact">
     <h2>Contact Me</h2>
-    <p>Email: Fakhreyfarog1409@gmail.com</p>
 
-    <p>Phone: +91 8299448580</p>
+<p>
+📧 Email:
+<a href="mailto:fakhreyfarog1409@gmail.com">
+fakhreyfarog1409@gmail.com
+</a>
+</p>
+
+<p>
+📱 Phone: +91 8299448580
+</p>
+
+<p>
+💻 GitHub:
+<a href="https://github.com/luckyfarog065-netizen" target="_blank">
+github.com/luckyfarog065-netizen
+</a>
+</p>
+
+<p>
+💼 LinkedIn:
+<a href="https://www.linkedin.com/in/fakhrey-farog-ansari" target="_blank">
+linkedin.com/in/fakhrey-farog-ansari
+</a>
+</p>
 </section>
 
+<footer>
+    <p>© 2026 Fakhrey Farog Ansari | All Rights Reserved</p>
+</footer>
 </body>
 </html>
